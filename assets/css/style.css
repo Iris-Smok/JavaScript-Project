@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.memory-game-parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+   }
+
+.card {
+    border: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 5em;
+    height: 5em;
+}
+
