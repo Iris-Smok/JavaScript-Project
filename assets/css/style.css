@@ -9,7 +9,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    /* height: 100vh; */
     gap: 10px;
    }
 
