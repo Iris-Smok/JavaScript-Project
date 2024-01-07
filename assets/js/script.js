@@ -13,17 +13,22 @@ function flipCard(){
 
    if(!hasFlippedCard){
     hasFlippedCard = true
-    firstCard = this.innerHTML
+    firstCard = this;
    }else{
     hasFlippedCard = false
-    secondCard = this.innerHTML
+    secondCard = this;
    }
    matchingCards()
 }
 
 
 function matchingCards(){
-    if (firstCard === secondCard){
-        console.log('win')
+    if (firstCard.innerHTML === secondCard.innerHTML){
+       firstCard.classList.add('green')
+       secondCard.classList.add('green')
+    }
+    else{
+        firstCard.classList.remove('color');
+        secondCard.classList.remove('color')
     }
 }
